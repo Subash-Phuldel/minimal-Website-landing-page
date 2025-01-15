@@ -12,7 +12,10 @@ animation.from("h1", {
   opacity: 0,
   duration: 1,
 });
-
+animation.to("main", {
+  y: 64,
+  duration: 1,
+});
 animation.from("h5", {
   y: 100,
   opacity: 0,
